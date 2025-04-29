@@ -4,6 +4,34 @@ A **high-performance AVR Assembly implementation** of the **RC5 symmetric-key en
 
 ---
 
+## 📑 Table of Contents
+
+- [🔐 RC5 Cryptography on AVR (ATmega328P)](#-rc5-cryptography-on-avr-atmega328p)
+- [📌 Features](#-features)
+  - [🧠 Optimized Assembly Implementation](#-optimized-assembly-implementation)
+  - [🔐 RC5 Cryptographic Algorithm](#-rc5-cryptographic-algorithm)
+  - [📺 LCD Integration](#-lcd-integration)
+  - [📦 Memory Management](#-memory-management)
+  - [⏱️ Robust Delay Routines](#️-robust-delay-routines)
+  - [📚 Educational Value](#-educational-value)
+- [🧪 How It Works](#-how-it-works)
+- [🔧 Configuration Parameters](#-configuration-parameters)
+- [📷 Demo](#-demo)
+- [🔐 Security Considerations](#-security-considerations)
+- [📘 Use Cases](#-use-cases)
+- [🛠 Hardware Requirements](#-hardware-requirements)
+- [🛠️ Toolchain & Simulation](#️-toolchain--simulation)
+- [📂 Project Structure](#-project-structure)
+- [🚧 Limitations](#-limitations)
+- [🧠 Future Improvements](#-future-improvements)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+- [📚 References](#-references)
+- [💬 Author](#-author)
+
+---
+
+
 ## 📌 Features
 
 ### 🧠 Optimized Assembly Implementation
