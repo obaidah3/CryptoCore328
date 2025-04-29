@@ -1,4 +1,4 @@
-RC5 Code
+; Assembly Code
 ; RC5 Encryption/Decryption for Arduino UNO
 ; Complete Implementation with LCD Display
 ; Plaintext: 0x1C34 0xA2C3
