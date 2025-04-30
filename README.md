@@ -158,16 +158,21 @@ _Confirms round-trip encryption integrity._
 ```
 /rc5-assembly-avr/
 │
-├── rc5.asm             # Main RC5 algorithm (encryption + decryption)
-├── key_expansion.asm   # Key expansion module
-├── lcd.asm             # LCD display routines
-├── delay.asm           # Delay subroutines
-├── secure_clear.asm    # Memory wipe routine
-├── Makefile            # Build script for AVR-GCC
-└── README.md           # You're here!
+├── AssemblerApplication4    # program file
+├── Proteus simulatoin       # program file
+├── AssemblerApplication.hex # for simulation purpose
+├── LCD Interface.md         # Display Functions
+├── LICENSE                  # MIT LICENSE
+├── RC5 Code                 # implementation 
+├── Decryption Module.md
+├── Encryption Module.md
+├── Key Expansion.md
+├── README.md                # You're here!
+└── Secure Memory.md
 ```
 
 ---
+
 
 ## 🚧 Limitations
 
