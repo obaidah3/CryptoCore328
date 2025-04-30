@@ -2,6 +2,11 @@
 
 The key-expansion module in the RC5 algorithm is designed to transform a user-supplied secret key `K` into an expanded key array `S`, which is later used during encryption and decryption. This process is essential for ensuring that the cryptographic strength of RC5 is rooted in the variability of the input key.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/686e1482-8ffe-4dde-bf48-3dd73a270c1a" width="600">
+    <br/>
+</p>
+
 ---
 
 ## 🔐 Overview
