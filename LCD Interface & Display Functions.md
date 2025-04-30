@@ -4,6 +4,20 @@ This document provides a detailed explanation of the AVR Assembly code used to i
 
 ---
 
+## 🧪 Simulation Snapshots (Proteus)
+
+To help visualize how the LCD routines behave during runtime, real simulation screenshots were captured using Proteus:
+
+📷 **[Click here to view the simulation screenshots](https://github.com/obaidah3/CryptoCore328/blob/main/Proteus%20simulatoin/Screenshots.md#simulation-screenshots)**
+
+These images demonstrate:
+
+- ✅ Proper LCD initialization with message: `RC5 Test_`
+- 📥 Displaying plaintext values before encryption.
+- 🔁 Correct output of decrypted values matching the original plaintext.
+
+---
+
 ## 🔧 LCD Initialization & Communication
 
 ### `lcd_init`
