@@ -153,35 +153,28 @@ _Confirms round-trip encryption integrity._
 
 ---
 
-## 📂 Project Structure
-
+## 📁 Project Structure
+```
 📂 RC5_Encryption_Assembly_Project
-├── 📁 AssemblerApplication4
-│   ├── AssemblerApplication4.asmproj
-│   ├── main.asm
-│   ├── AssemblerApplication.hex
-│   └── 📄 LICENSE
+├── 📁 AssemblerApplication4            # Main assembly project folder
+│     ├── AssemblerApplication4.asmproj  # Project configuration file
+|     ├── MyTemplate.vstemplate          # Visual Studio template
+│     ├── main.asm                       # RC5 implementation in Assembly
+│     └── __TemplateIcon.ico
+| 
+├── 📁 Proteus Simulation
+│     ├── RC5.pdsprj                     # Proteus design for simulating the system
+|     └── Screenshot.md
 │
-├── 📁 Documentation
-│   ├── README.md
-│   ├── Screenshots.md
-│   ├── LCD Interface & Display Functions.md
-│   ├── RC5 Encryption Module.md
-│   ├── RC5 Decryption Module.md
-│   ├── RC5 Key Expansion.md
-│   ├── Secure Memory .md
-│
-├── 📁 Templates
-│   ├── MyTemplate.vstemplate
-│   └── __TemplateIcon.ico
-│
-├── 📁 Proteus_Simulation
-│   └── RC5.pdsprj
-│
-└── 📁 RC5 Code
-    └── (Other ASM modules or helper files if any)
-
-
+├── RC5 Code                        
+├── RC5 Encryption Module.md
+├── RC5 Decryption Module.md
+├── RC5 Key Expansion.md
+├── LCD Interface & Display Functions.md
+├── Secure Memory .md
+├── README.md
+└── LICENSE   
+```
 ---
 
 
