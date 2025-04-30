@@ -39,8 +39,11 @@ A **high-performance AVR Assembly implementation** of the **RC5 symmetric-key en
 - **Direct Hardware Control:** Uses **bare-metal register manipulation** for GPIO and SRAM operations—no Arduino libraries or abstractions.
 
 ### 🔐 RC5 Cryptographic Algorithm
-![Image](https://github.com/user-attachments/assets/d3c74290-5c2d-4a63-8f2c-9b9a6cb2d252)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d3c74290-5c2d-4a63-8f2c-9b9a6cb2d252" width="450"/>
 <br/>
+</p>
+
 - **Fully Compliant RC5:**  
   - **Word Size:** 16-bit  
   - **Rounds:** 8 (configurable via `ROUNDS` constant)  
