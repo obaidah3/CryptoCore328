@@ -2,6 +2,12 @@
 
 The **encryption module** of RC5 takes a plaintext block and produces a ciphertext block using the **expanded key array `S[0:t-1]`**, where `t = 2 * (r + 1) = 18`. It operates on two input words `A₀` and `B₀`, each of `w` bits (16 bits), and applies **r rounds** (typically 8) of data-dependent operations.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/27074907-720e-4b72-a6ec-e0175e91c6ee" width="600">
+    <br/>
+</p>
+
+
 ### 🧠 Inputs:
 - `A₀`, `B₀`: 16-bit plaintext words.
 - `S[0:17]`: Expanded key array from key-expansion module.
@@ -43,6 +49,11 @@ Each stage of the pipeline performs:
 ```
 [A, B] → XOR → Rotate Left → Add (with key) → [A', B']
 ```
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c18d6b7e-249e-4357-9123-b878a42e5a56" width="600">
+    <br/>
+</p>
 
 ---
 
