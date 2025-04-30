@@ -40,7 +40,7 @@ A **high-performance AVR Assembly implementation** of the **RC5 symmetric-key en
 
 ### 🔐 RC5 Cryptographic Algorithm
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d3c74290-5c2d-4a63-8f2c-9b9a6cb2d252" width="450"/>
+  <img src="https://github.com/user-attachments/assets/2c2349ea-4330-4c62-b272-a90421666ca6" width="450"/>
 <br/>
 </p>
 
