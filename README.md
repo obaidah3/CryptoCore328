@@ -234,7 +234,6 @@ This project is released under the **MIT License**.
 ## 💬 Author
 
 **Obaidah Essam**  
-🚗 Embedded Systems | 🛡 Cybersecurity | 🌐 IoT & Cloud for Smart Vehicles  
 🔗 [LinkedIn](https://www.linkedin.com/in/abdulrahman-essam-a600202a9/)
 
 
